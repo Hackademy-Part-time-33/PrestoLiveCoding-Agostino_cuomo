@@ -1,0 +1,56 @@
+
+
+.logo{
+    height: 5%;
+    width:5%;
+}
+.parte1{
+    background:linear-gradient(rgb(255,255,255), rgb(253, 253, 0, 0.0)) , url(furgoncino.avif);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+}
+
+.parte2{
+    height: 800px;
+    width: 100%;
+}
+.Navbar-scroll{
+    background-color: white;
+}
+.scroll{
+    backdrop-filter: blur(5px) saturate(0.5);
+    background-color: rgb(35, 37, 5, 0.3);
+    border: 2px solid rgb(157, 160, 0);
+    border-top: none;
+}
+.ButtonSerch{
+    background: transparent;
+    position:relative;
+    overflow: hidden;
+    transition: all 250ms;
+     padding: 0 0 0 0;
+     width: 15%;
+}
+.ButtonSerch::before{
+position: absolute;
+top:0;
+left: 0;
+content: "";
+height: 100%;
+width: 0px;
+background-color: rgb(243, 219, 83);
+z-index: -1;
+transition: all 250ms;
+padding: 0 0 0 0;
+}
+.ButtonSerch:hover::before{
+    width: 100%;
+    
+}
+.Img{
+    padding-left: 20%;
+}
+ 
